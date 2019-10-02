@@ -31,9 +31,16 @@ def main():
     # most likely you will only render background once per scene
     game.render_block()
 
+    # repeat forever, game loop
     while True:
-        # repeat forever, or you turn it off!
-        pass
+        #get user input
+        
+        #update game logic
+        
+        #redraw sprite list
+        game.render_sprites(sprites)
+        game.tick() #wait until refresh rate finishes
+        
 
 
 if __name__ == "__main__":
