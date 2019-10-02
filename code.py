@@ -10,6 +10,7 @@ import stage
 # an image bank for CircuitPython
 image_bank_1 = stage.Bank.from_bmp16("space_aliens.bmp")
 sprites = []
+
 def main():
     # this function sets the background
 
